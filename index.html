@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/13821d0a04.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="hero">
+      <nav class="NavBar">
+        <img class="nav-logo" src="./assets/images/productLogo.svg" />
+        <a href="#">
+          <img
+            class="nav-logo"
+            src="./assets/images/hamburger.svg"
+            alt="Hamburger Icon"
+          />
+        </a>
+        <a href="/" class="nav-text">
+          <span>Follow Us</span>
+        </a>
+        <a href="/">
+          <img
+            class="nav-logo"
+            src="./assets/images/stats.svg"
+            alt=""
+            srcset=""
+          />
+        </a>
+      </nav>
+      <main class="main">
+        <div class="main-content">
+          <h1 class="main-headline">Studio</h1>
+          <p>
+            We provide a free day to experience our benefits of the digital
+            world.
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <!-- About container -->
+
+    <div class="about">
+      <div class="about-content">
+        <div class="about-headline">
+          <h1>Digital web Products</h1>
+          <h1>For amazing clients</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati,
+            quas laudantium eveniet, fuga fugiat neque dignissimos
+            voluptatibus<br />
+            excepturi asperiores porro labore aliquid vel aspernatur est error!
+            Sint voluptates iure magni!
+          </p>
+        </div>
+
+        <div class="about-list">
+          <ul>
+            <li>
+              <h3><span class="list-number">01</span><br />Prototype</h3>
+              <p>
+                The more you use, the more you have in your significant mind.
+              </p>
+            </li>
+            <li>
+              <h3><span class="list-number">02</span><br />Sketching</h3>
+              <p>
+                The more you use, the more you have in your significant mind.
+              </p>
+            </li>
+            <li>
+              <h3><span class="list-number">03</span><br />Wireframe</h3>
+              <p>
+                The more you use, the more you have in your significant mind.
+              </p>
+            </li>
+            <li>
+              <h3><span class="list-number">04</span><br />ui-ux design</h3>
+              <p>
+                The more you use, the more you have in your significant mind.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery container -->
+    <div class="gallery">
+      <div class="gallery-content">
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <img
+              src="assets/images/slideShow/192306.webp"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="mySlides">
+            <img
+              src="assets/images/slideShow/a8820a28390449.55bdddece3869.jpg"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="mySlides">
+            <img
+              src="assets/images/slideShow/desktop-wallpaper-minion-for-laptop.jpg"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="mySlides">
+            <img
+              src="assets/images/slideShow/HD-wallpaper-knock-knock-whos-there-orange-orange-who-orange-you-glad-i-didn-t-say-banana-orange-awkward-yellow-fruit-random-jocks-banana-jock-amazing-bananas-fun-cartoon-oranges-cute-weird.jpg"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="mySlides">
+            <img
+              src="assets/images/slideShow/minions-3wxim1i2egqb5my9.jpg"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="mySlides">
+            <img src="assets/images/background.webp" style="width: 100%" />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <!-- Progress circles -->
+          <div
+            style="
+              text-align: center;
+              margin-top: 20px;
+              position: relative;
+              bottom: 70px;
+            "
+          >
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+          </div>
+        </div>
+        <div class="gallery-list">
+          <ul>
+            <li>
+              <div class="list-content">
+                <h1>14</h1>
+                <span>Days</span>
+              </div>
+              <p>case research</p>
+            </li>
+            <li>
+              <div class="list-content">
+                <h1>90</h1>
+                <span>Days</span>
+              </div>
+              <p>Ux Prototype</p>
+            </li>
+            <li>
+              <div class="list-content">
+                <h1>24</h1>
+                <span>Hours</span>
+              </div>
+              <p>Ui design</p>
+            </li>
+            <li>
+              <div class="list-content">
+                <h1>25</h1>
+                <span>Days</span>
+              </div>
+              <p>wireframing</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div class="products-page">
+      <div class="products-container">
+        <h1>
+          The things<br />
+          we are able to do
+        </h1>
+
+        <div class="products-list">
+          <ul>
+            <li>
+              <i
+                class="fa-regular fa-lightbulb"
+                style="font-size: 60px; color: white"
+              ></i>
+              <h3>digital products</h3>
+              <div class="products-sublists">
+                <span>lorem</span>
+                <span>lorem</span>
+                <span>lorem</span>
+                <span>lorem</span>
+              </div>
+            </li>
+            <li>
+              <i
+                class="fa-brands fa-uikit"
+                style="font-size: 60px; color: white"
+              ></i>
+              <h3>ui-ux design</h3>
+              <div class="products-sublists">
+                <span>lorem</span>
+                <span>lorem</span>
+                <span>lorem</span>
+                <span>lorem</span>
+              </div>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-computer"
+                style="font-size: 60px; color: white"
+              ></i>
+              <h3>web development</h3>
+              <div class="products-sublists">
+                <span>lorem</span>
+                <span>lorem</span>
+                <span>lorem</span>
+                <span>lorem</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEEDBACK -->
+    <div class="feedback">
+      <div class="feedback-container">
+        <div class="cards-container">
+          <div class="card" id="card1">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
+              eligendi repellendus harum provident. Architecto reprehenderit
+              explicabo dicta laboriosam quasi quae sint adipisci at, mollitia
+              magnam ullam rem, atque dolorem blanditiis?
+            </p>
+            <div class="exp-user">
+              <img
+                src="assets/images/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.avif"
+                alt=""
+              />
+              <div class="user-detail">
+                <h3>Name</h3>
+                <span>designation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card" id="card2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              placeat, minima architecto ipsam dignissimos beatae suscipit!
+              Totam, molestias. Natus at in corrupti quisquam. Accusamus
+              distinctio suscipit ab quo aspernatur sunt.
+            </p>
+
+            <div class="exp-user">
+              <img
+                src="assets/images/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.avif"
+                alt=""
+              />
+              <div class="user-detail">
+                <h3>Name</h3>
+                <span>designation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card" id="card3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
+              distinctio sunt, consectetur nobis culpa voluptas ipsa sit, magnam
+              recusandae quod sapiente obcaecati, expedita magni ab doloremque
+              illo placeat. Commodi, dolore.
+            </p>
+            <div class="exp-user">
+              <img
+                src="assets/images/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.avif"
+                alt=""
+              />
+              <div class="user-detail">
+                <h3>Name</h3>
+                <span>designation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card" id="card4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+              sunt illum doloribus! Dolor consequuntur rerum voluptates
+              temporibus magnam. Nesciunt aspernatur porro fuga iure fugiat
+              quibusdam incidunt placeat ducimus, nobis consequuntur!
+            </p>
+            <div class="exp-user">
+              <img
+                src="assets/images/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.avif"
+                alt=""
+              />
+              <div class="user-detail">
+                <h3>Name</h3>
+                <span>designation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card" id="card5">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, iste
+              numquam nesciunt quo, ducimus nihil dicta iure temporibus rerum,
+              ratione dolore expedita illo. Minus quasi animi deleniti unde
+              harum accusantium.
+            </p>
+            <div class="exp-user">
+              <img
+                src="assets/images/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.avif"
+                alt=""
+              />
+              <div class="user-detail">
+                <h3>Name</h3>
+                <span>designation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="dots-container">
+            <span class="dot" id="dot1" onclick="currentCard(1)"></span>
+            <span class="dot" id="dot2" onclick="currentCard(2)"></span>
+            <span class="dot" id="dot3" onclick="currentCard(3)"></span>
+            <span class="dot" id="dot4" onclick="currentCard(4)"></span>
+            <span class="dot" id="dot5" onclick="currentCard(5)"></span>
+          </div>
+        </div>
+        <div class="feedback-title">
+          <h1>studio proud is quality of partner</h1>
+        </div>
+      </div>
+    </div>
+    <div class="team">
+      <div class="team-container">
+        <div class="team-text">
+          <h1>All about <br />the our team</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+            architecto iure beatae? Voluptatem veniam, vel incidunt ducimus
+            molestiae nisi aperiam impedit atque numquam dolore aspernatur, hic
+            tempora, quae adipisci neque. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Magnam velit illum nesciunt
+            reiciendis amet est. Alias atque soluta commodi nostrum adipisci,
+            quo natus quod aliquid optio? Cum dolorum delectus reprehenderit.
+          </p>
+        </div>
+        <div class="member">
+          <div class="member-card">
+            <img
+              src="assets/images/blank-profile-picture-973460_960_720.webp"
+              alt="John"
+              style="width: 100%"
+            />
+            <h1>John Doe</h1>
+            <p class="title">CEO & Founder, Example</p>
+          </div>
+          <div class="member-card">
+            <img
+              src="assets/images/blank-profile-picture-973460_960_720.webp"
+              alt="John"
+              style="width: 100%"
+            />
+            <h1>John Doe</h1>
+            <p class="title">CEO & Founder, Example</p>
+          </div>
+          <div class="member-card">
+            <img
+              src="assets/images/blank-profile-picture-973460_960_720.webp"
+              alt="John"
+              style="width: 100%"
+            />
+            <h1>John Doe</h1>
+            <p class="title">CEO & Founder, Example</p>
+          </div>
+          <div class="member-card">
+            <img
+              src="assets/images/blank-profile-picture-973460_960_720.webp"
+              alt="John"
+              style="width: 100%"
+            />
+            <h1>John Doe</h1>
+            <p class="title">CEO & Founder, Example</p>
+          </div>
+          <div class="member-card">
+            <img
+              src="assets/images/blank-profile-picture-973460_960_720.webp"
+              alt="John"
+              style="width: 100%"
+            />
+            <h1>John Doe</h1>
+            <p class="title">CEO & Founder, Example</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="partner">
+      <div class="partner-container">
+        <h1>Agensy proud is quality of partners</h1>
+
+        <div class="grid-container">
+          <div class="grid-item">
+            <i class="fa-brands fa-algolia" style="font-size: 40px"></i>
+          </div>
+          <div class="grid-item">
+            <i class="fa-solid fa-clapperboard" style="font-size: 40px"></i>
+          </div>
+          <div class="grid-item">
+            <i class="fa-solid fa-hands-clapping" style="font-size: 40px"></i>
+          </div>
+          <div class="grid-item">
+            <i class="fa-solid fa-house-laptop" style="font-size: 40px"></i>
+          </div>
+          <div class="grid-item">
+            <i class="fa-solid fa-robot" style="font-size: 40px"></i>
+          </div>
+          <div class="grid-item">
+            <i class="fa-solid fa-house-laptop" style="font-size: 40px"></i>
+          </div>
+          <div class="grid-item">
+            <i class="fa-solid fa-child-combatant" style="font-size: 40px"></i>
+          </div>
+          <div class="grid-item">
+            <i class="fa-solid fa-meteor" style="font-size: 40px"></i>
+          </div>
+          <div class="grid-item">
+            <i class="fa-solid fa-paper-plane" style="font-size: 40px"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-container">
+        <h1>
+          <span> Let's have a talk about your project</span>
+          <div class="icon-container">
+            <ul>
+              <a href="/"
+                ><i class="fa-brands fa-facebook" style="font-size: 15px"></i
+              ></a>
+              <a href="/"
+                ><i class="fa-regular fa-envelope" style="font-size: 15px"></i
+              ></a>
+              <a href="/"
+                ><i class="fa-brands fa-youtube" style="font-size: 15px"></i
+              ></a>
+              <a href="/"
+                ><i class="fa-brands fa-x-twitter" style="font-size: 15px"></i
+              ></a>
+            </ul>
+          </div>
+        </h1>
+        <div class="footer-main">
+          <span>Need more information or want <br />to get in touch ?</span>
+        </div>
+        <div class="footer-text">
+          <a href="/" class="footer-a">Get in Touch</a>
+        </div>
+        <div class="trademark">
+          <span
+            ><i class="fa-regular fa-copyright"></i> 2022 Tourog | All rights
+            reserved</span
+          >
+          <span
+            >site created by
+            <a href="https://github.com/mp2003">Milind Pandey</a></span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
