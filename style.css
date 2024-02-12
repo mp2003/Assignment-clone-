@@ -928,16 +928,16 @@
     .grid-container {
         margin-top: 2.5em;
         width: 80%;
-        padding: 0 0.75em;
+        /* padding: 0 0.75em; */
         grid-template-columns: repeat(2, 200px);
         grid-template-rows: repeat(2, auto);
-        /* gap: 0.5rem; */
+        gap: 0.5rem;
     }
 
     .grid-item {
         background-color: #fffcfc;
         /* Set background color or other styles */
-        padding: 3em;
+        padding: 2em;
         border: 1px solid rgba(0, 0, 0, 0.178);
         /* Set padding or other styles */
         text-align: center;
@@ -948,19 +948,24 @@
     .footer {
         height: 120vh;
         width: 100%;
-        justify-content: space-around;
         /* background: blue; */
         flex-direction: column;
     }
 
     .footer-container {
         width: 100%;
+        position: absolute;
+        /* bottom: -10em; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         /* background: black; */
     }
 
     .footer-container h1 {
         width: 100%;
-        background: red;
+        /* background: red; */
         margin-top: 0;
         align-items: center;
         flex-direction: column;
