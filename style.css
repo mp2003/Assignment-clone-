@@ -927,11 +927,12 @@
 
     .grid-container {
         margin-top: 2.5em;
-        width: 80%;
-        /* padding: 0 0.75em; */
-        grid-template-columns: repeat(2, 200px);
+        width: 100%;
+        padding: 0 1em;
+        grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(2, auto);
         gap: 0.5rem;
+        background: red;
     }
 
     .grid-item {
