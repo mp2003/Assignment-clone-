@@ -933,7 +933,7 @@
         grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(2, auto);
         gap: 0.5rem;
-        background: red;
+        /* background: red; */
     }
 
     .grid-item {
@@ -989,7 +989,7 @@
         width: 90%;
         /* background: blue; */
         position: absolute;
-        bottom: -80%;
+        bottom: -70%;
         display: flex;
         align-items: center;
         justify-content: space-between;
