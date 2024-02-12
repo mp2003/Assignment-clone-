@@ -680,7 +680,8 @@
         align-items: flex-start;
         justify-content: center;
         padding: 1em 0;
-        height: 110vh;
+        height: 120vh;
+        /* background: red; */
     }
 
     .about-headline h1 {
@@ -775,9 +776,9 @@
     /* ProductsPage */
 
     .products-page {
-        background: blue;
+        /* background: blue; */
         align-items: start;
-        height: 120vh;
+        height: 130vh;
     }
 
     .products-container {
@@ -928,7 +929,7 @@
     .grid-container {
         margin-top: 2.5em;
         width: 85%;
-        padding: 0 1em;
+        padding: 0 2em;
         grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(2, auto);
         gap: 0.5rem;
@@ -974,10 +975,6 @@
         font-size: 1.5em;
     }
 
-    .footer-main span {
-        background: red;
-    }
-
     .footer-main {
         font-size: 3em;
         text-align: center;
@@ -992,7 +989,7 @@
         width: 100%;
         /* background: blue; */
         position: absolute;
-        bottom: -79%;
+        bottom: -80%;
         display: flex;
         align-items: center;
         justify-content: space-between;
