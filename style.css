@@ -961,7 +961,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 0 1em;
+        /* padding: 0 1em; */
         /* background: black; */
     }
 
@@ -974,8 +974,13 @@
         font-size: 1.5em;
     }
 
+    .footer-main span {
+        background: red;
+    }
+
     .footer-main {
         font-size: 3em;
+        text-align: center;
     }
 
     .footer-text {
