@@ -644,7 +644,7 @@
 
     .nav-text {
         position: absolute;
-        top: 50em;
+        top: 45em;
         left: 35%;
         transform: rotate(0);
         background: rgba(255, 255, 255, 0.096);
@@ -658,7 +658,7 @@
     .main-content {
         bottom: 10%;
         /* Adjust top position for smaller screens */
-        left: 15%;
+        left: 10%;
         /* Adjust left position for smaller screens */
     }
 
@@ -680,6 +680,7 @@
         align-items: flex-start;
         justify-content: center;
         padding: 1em 0;
+        height: 110vh;
     }
 
     .about-headline h1 {
@@ -699,15 +700,17 @@
     }
 
     .about-list ul {
+        margin-top: 1em;
+        /* background: blue; */
         flex-direction: column;
         align-items: center;
-        gap: 0.5em;
+        gap: 1em;
     }
 
     .about-list li {
         height: 120px;
         width: 200px;
-        background: red;
+        /* background: red; */
     }
 
     .about-list h3 {
@@ -746,6 +749,7 @@
         align-content: center;
         justify-content: space-between;
         gap: 1em;
+        /* background: blue; */
     }
 
     .gallery-list li {
@@ -756,6 +760,7 @@
 
     .gallery-list h1 {
         font-size: 3em;
+        margin-bottom: 0.3em;
     }
 
     .gallery-list li span {
@@ -770,8 +775,9 @@
     /* ProductsPage */
 
     .products-page {
-        /* background: blue; */
+        background: blue;
         align-items: start;
+        height: 120vh;
     }
 
     .products-container {
@@ -847,7 +853,7 @@
 
     /* TEAM CONTAINER */
     .team {
-        height: 200vh;
+        height: 220vh;
         /* background: blue; */
         flex-direction: column;
         justify-content: start;
@@ -897,7 +903,7 @@
     /* partner Container */
 
     .partner {
-        height: 100vh;
+        height: 120vh;
         /* background: blue; */
         width: 100%;
         display: flex;
@@ -921,7 +927,7 @@
 
     .grid-container {
         margin-top: 2.5em;
-        width: 100%;
+        width: 80%;
         padding: 0 0.75em;
         grid-template-columns: repeat(2, 200px);
         grid-template-rows: repeat(2, auto);
@@ -940,21 +946,16 @@
 
     /* FOOTER */
     .footer {
-        height: 100vh;
+        height: 120vh;
         width: 100%;
-
-        background: url('assets/images/footer.jpg');
-
-        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 1)), url('assets/images/footer.jpg');
-        background: blue;
-        display: flex;
-        align-items: center;
+        justify-content: space-around;
+        /* background: blue; */
         flex-direction: column;
     }
 
     .footer-container {
         width: 100%;
-        background: black;
+        /* background: black; */
     }
 
     .footer-container h1 {
