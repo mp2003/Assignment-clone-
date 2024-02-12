@@ -927,7 +927,7 @@
 
     .grid-container {
         margin-top: 2.5em;
-        width: 100%;
+        width: 85%;
         padding: 0 1em;
         grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(2, auto);
